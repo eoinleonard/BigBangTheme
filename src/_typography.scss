@@ -1,0 +1,48 @@
+body {
+
+	@include sans-serif;
+	-webkit-fontsmoothing: antialiased;
+	color: #44423b;
+	font-size: 18px;
+}
+
+#nav {
+
+	a {
+		color: #3a3a3a;
+	}
+	
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: #444;
+}
+.page-heading {
+	font-weight: 300;
+	font-size: 46px;
+}
+
+h2 {
+	@include bp(full) {
+		font-size: 55px;
+        line-height: 63px;
+	}
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	padding-bottom: 27px;
+	@include bp(mid-mob) {
+		font-size: 20px;
+		padding-bottom: 30px;
+	}
+	@include bp(tab) {
+		font-size: 22px;
+		padding-bottom: 33px;
+	}
+}

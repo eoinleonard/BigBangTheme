@@ -2,11 +2,14 @@
 <?php get_header(); ?>
 
 
+<div id="main" role="main">
+        <article class="">
 
-    <div id="main" role="main">
-        <article class="block prose">
+            <h2 class="page-heading">We Don't Just Design Websites. We Build Conversion Machines.</h2>
 
-            <h1 class="page-heading">Hello</h1>
+
+
+            
 
             <p><a name="id380362"><!--anchor--></a>SQUIRE TRELAWNEY, Dr. Livesey, and the rest of these gentlemen having
             asked me to write down the whole particulars about Treasure Island, from

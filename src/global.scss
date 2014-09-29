@@ -18,7 +18,7 @@ $step: 4;
 
 @import "typography";
 
-@import "base";
+@import "base/mobile-nav";
 
 @media screen and (min-width: 45.0625em) {
     @import "min_width_720";
